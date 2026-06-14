@@ -99,9 +99,14 @@ tr:hover td{background:#f9fafc}.prod-thumb{width:38px;height:38px;border:1px sol
 .alert-info{background:var(--blue2);color:var(--blue);border:1px solid #B5D4F4}
 /* Responsive */
 @media(max-width:768px){
-  .sidebar{display:none}
-  .main{margin-left:0}
-  .grid-2,.grid-3{grid-template-columns:1fr}
+  .sidebar{
+    display:flex;
+  }
+
+  .main{
+    margin-left:220px;
+  }
+}
 }
 /* Chart canvas */
 .chart-box{position:relative;width:100%;height:260px}
